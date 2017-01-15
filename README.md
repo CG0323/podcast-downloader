@@ -3,9 +3,9 @@ A python web crawler for automatically downloading archive podcasts from Authent
 
 ====
 ##Table of Content
-* [Background](#Background)
-* [Implementation](#Implementation)
-    * [Retrieve Menu Page](#Retrieve Menu Page)
+* [Background](#background)
+* [Implementation](#implementation)
+    * [Retrieve menu page](#retrieve menu page)
 
 Background
 -----
@@ -18,7 +18,8 @@ This is a boring job, so I decided to use the 'to be wasted time' to practice my
 
 Implementation
 -----
-Retrieve Menu Page 
-First thing is to retrieve the menug page for archive. 
+Retrieve menu page 
+First thing is to retrieve the menug page. 
+
 
 
