@@ -7,7 +7,8 @@ A python web crawler for automatically downloading archive podcasts from Authent
 * [Implementation](#implementation)
     * [Retrieve menu page](#retrieve-menu-page)
     * [Process detail page](#process-detail-page)
-    * [Remember processed pages](#remember-processed-pages)
+    * [Remember processed pages](#remember-processed-pages)  
+-----
 ##Background
 -----
 Puisque je déménage bientôt à Montréal, c'est le temps de pratiquer beaucoup Le français.Tout d'abord, grâce à Johan, son [Français Authentique](https://www.francaisauthentique.com) est vraiment une excellente source pour améliorer le français oral.  
@@ -22,9 +23,6 @@ This is a boring job, so I decided to use the 'to be wasted time' to practice my
 ###Retrieve menu page  
 -----
 First thing is to retrieve the menug page.  
-```python
-pip install urllib
-```
 ```python
 import urllib
 response = urllib.urlopen('https://www.francaisauthentique.com/archive')
