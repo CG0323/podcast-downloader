@@ -8,7 +8,7 @@ A python web crawler for automatically downloading archive podcasts from Authent
     * [Retrieve menu page](#retrieve-menu-page)
     * [Process detail page](#process-detail-page)
     * [Remember processed pages](#remember-processed-pages)  
------
+
 ##Background
 -----
 Puisque je déménage bientôt à Montréal, c'est le temps de pratiquer beaucoup Le français.Tout d'abord, grâce à Johan, son [Français Authentique](https://www.francaisauthentique.com) est vraiment une excellente source pour améliorer le français oral.  
