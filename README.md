@@ -115,3 +115,7 @@ def download_podcast(url):
 ```
 Voilà, have a cup of coffee (or 2 cups maybe~), here we get it:
 ![result](img/result.png)
+
+Futher works
+-------------
+1. Schedule a crontab task to get daily update (not necessary for now, I need a long time to learn the courses I already downloaded~~)
