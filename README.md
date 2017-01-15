@@ -5,7 +5,7 @@ A python web crawler for automatically downloading archive podcasts from Authent
 ##Table of Content
 * [Background](#background)
 * [Implementation](#implementation)
-    * [Retrieve menu page](#retrieve menu page)
+    * [Retrieve menu page](#retrieve-menu-page)
 
 Background
 -----
@@ -18,8 +18,26 @@ This is a boring job, so I decided to use the 'to be wasted time' to practice my
 
 Implementation
 -----
-Retrieve menu page 
-First thing is to retrieve the menug page. 
-
-
+Retrieve menu page  
+First thing is to retrieve the menug page.  
+```python
+pip install urllib
+```
+```python
+import urllib
+response = urllib.urlopen('https://www.francaisauthentique.com/archive')
+html = response.read()
+```
+Succeed, this page is very friendly to scrawlers :) Analyze the html, found that my interest part is as below:
+```html
+<h3>janvier 2017</h3>
+<ul>
+<li><span>13 janvier - </span> <span><a href="https://www.francaisauthentique.com/conseil-apprendre-francais-de-facon-plus-efficace/">Un conseil pour apprendre le français de façon plus efficace</a></span></li>
+<li><span>11 janvier - </span> <span><a href="https://www.francaisauthentique.com/ce-se-ou-ceux/">Ce, se ou ceux ?</a></span></li>
+<li><span>9 janvier - </span> <span><a href="https://www.francaisauthentique.com/invention-francaise-velo/">Une invention française : le vélo</a></span></li>
+<li><span>8 janvier - </span> <span><a href="https://www.francaisauthentique.com/faire-porter-le-chapeau/">Faire porter le chapeau</a></span></li>
+<li><span>7 janvier - </span> <span><a href="https://www.francaisauthentique.com/temoignages-academie-francais-authentique/">Ce que les membres de l&rsquo;académie Français Authentique en disent</a></span></li>
+<li><span>6 janvier - </span> <span><a href="https://www.francaisauthentique.com/comment-parler-francais-en-2017/">Comment parler français en 2017</a></span></li>
+<li><span>5 janvier - </span> <span><a href="https://www.francaisauthentique.com/contenu-academie-francais-authentique/">Je vous montre le contenu de l&rsquo;académie Français Authentique</a></span></li>
+```
 
